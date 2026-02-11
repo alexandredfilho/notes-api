@@ -2,7 +2,7 @@ class ApplicationController < ActionController::API
   before_action :set_locale
 
   rescue_from ActiveRecord::RecordNotFound do
-    render json: { errors: [ I18n.t('errors.messages.not_found') ] }, status: :not_found
+    render json: { errors: [I18n.t('errors.messages.not_found')] }, status: :not_found
   end
 
   private

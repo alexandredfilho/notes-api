@@ -1,7 +1,7 @@
 module Api
   module V1
     class NotesController < ApplicationController
-      before_action :set_note, only: %i[update destroy]
+      before_action :set_note, only: %i[ update destroy ]
 
       def index
         notes = Note.order(created_at: :desc)

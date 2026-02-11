@@ -1,0 +1,9 @@
+pt-BR:
+  errors:
+    messages:
+      blank: "não pode ficar em branco"
+      not_found: "não encontrado"
+  activerecord:
+    attributes:
+      note:
+        title: "Título"

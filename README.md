@@ -118,21 +118,16 @@ Evidences:
 ```bash
 bundle exec bundler-audit check --update
 ```
-<img width="961" height="425" alt="Screenshot from 2026-02-11 19-40-04" src="https://github.com/user-attachments/assets/c526565a-1686-45f4-9ed9-216dd149621d" />
-
-
 - SimpleCov report
 ```bash
 bundle exec rspec
 open coverage/index.html
 ```
-<img width="1914" height="788" alt="Screenshot from 2026-02-11 19-32-24" src="https://github.com/user-attachments/assets/b97422ac-5a7e-42ad-b57b-5c6bf49c640a" />
-
-
 - RubyCritic report
 ```bash
 bundle exec rubycritic
 open tmp/rubycritic/overview.html
 ```
-<img width="1914" height="955" alt="Screenshot from 2026-02-11 19-37-38" src="https://github.com/user-attachments/assets/4acd5fd1-6f98-429a-8a32-18eb9c99032d" />
 
+## CI Workflow
+A GitHub Actions workflow is configured to run security scan (Brakeman) and linting (Rubocop) on pull requests and pushes to `main`.

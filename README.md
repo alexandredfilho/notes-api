@@ -131,3 +131,7 @@ open tmp/rubycritic/overview.html
 
 ## CI Workflow
 A GitHub Actions workflow is configured to run security scan (Brakeman) and linting (Rubocop) on pull requests and pushes to `main`.
+<img width="1910" height="559" alt="image" src="https://github.com/user-attachments/assets/43e694be-3745-45ee-bfbe-d27c2d7d720e" />
+<img width="1910" height="559" alt="image" src="https://github.com/user-attachments/assets/ea1404df-4fc4-43a5-9167-1e148894ce1b" />
+
+

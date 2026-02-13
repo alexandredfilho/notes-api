@@ -130,8 +130,8 @@ open tmp/rubycritic/overview.html
 ```
 
 ## CI Workflow
-A GitHub Actions workflow is configured to run security scan (Brakeman) and linting (Rubocop) on pull requests and pushes to `main`.
-<img width="1910" height="559" alt="image" src="https://github.com/user-attachments/assets/43e694be-3745-45ee-bfbe-d27c2d7d720e" />
-<img width="1910" height="559" alt="image" src="https://github.com/user-attachments/assets/ea1404df-4fc4-43a5-9167-1e148894ce1b" />
-
-
+A GitHub Actions workflow is configured to run on pull requests and pushes to `main` with:
+- Test suite (`RSpec`) using PostgreSQL service
+- Security scan (`Brakeman`)
+- Linting (`Rubocop`)
+<img width="1916" height="594" alt="Screenshot from 2026-02-12 22-29-41" src="https://github.com/user-attachments/assets/d285b3db-7c68-4a26-9f78-4db292bce025" />

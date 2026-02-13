@@ -134,4 +134,5 @@ A GitHub Actions workflow is configured to run on pull requests and pushes to `m
 - Test suite (`RSpec`) using PostgreSQL service
 - Security scan (`Brakeman`)
 - Linting (`Rubocop`)
+<img width="1916" height="594" alt="image" src="https://github.com/user-attachments/assets/7cf86a6c-f318-4add-9867-7d9c2ac9eb78" />
 <img width="1916" height="594" alt="Screenshot from 2026-02-12 22-29-41" src="https://github.com/user-attachments/assets/d285b3db-7c68-4a26-9f78-4db292bce025" />
